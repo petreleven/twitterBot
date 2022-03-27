@@ -11,11 +11,11 @@ class JobMagScraper:
         self.url=f'https://www.myjobmag.co.ke/search/jobs?q=&field=Engineering+%2F+Technical'
 
         #CONSUMER'''
-        self.API_KEY = "Pru9XrC0q7bjLzPJMyeXg3hqc"
-        self.API_SECRET = 'sVnYQgrMod2En78FYEdYZIsCy1aa39IE6tZx7kDdIrzZ2ElZNW'
+        self.API_KEY = ""
+        self.API_SECRET = ''
         #TOKENS
-        self.ACCESS_TOK  = "1507185827352395779-PJ2XNO3aq5dtPFULerWjzoIrfX2xZI"
-        self.ACCESS_SEC = "Fr0XPbwVe3ga1iJxMsdwpwprROuy5GzWHq72UPqCi3hk0"
+        self.ACCESS_TOK  = ""
+        self.ACCESS_SEC = ""
         self.new_content = []
 
     def getJobtitle(self,soup):
